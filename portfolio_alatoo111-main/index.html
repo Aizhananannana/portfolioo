@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aizhana | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="media/logo.of.the.site">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">C.A.A</a>
+
+        <button id="menuToggle" class="menu-toggle">☰</button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contacts</a>
+
+            <button id="themeBtn" class="theme-btn">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+
+            <div class="home-text">
+                <p class="subtitle">I'M SECOND YEAR STUDENT</p>
+
+                <h1>Hello, my name<br>is Aizhana</h1>
+
+                <p class="description">
+                    I study programming at the college of the
+                    International University of Ala-Too (IUA).
+                </p>
+
+                <div class="buttons">
+                    <a href="#subjects" class="btn">to look</a>
+                    <a href="#contact" class="btn btn-outline">contact me</a>
+                </div>
+            </div>
+
+            <div class="home-image">
+                <img src="media/logo" alt="Aizhana">
+            </div>
+
+        </section>
+
+
+        <!-- SUBJECTS SECTION -->
+        <section class="subjects" id="subjects">
+
+            <h2>Subjects in the college</h2>
+            <div class="title-line"></div>
+
+            <div class="subject-card">
+                <div class="subject-text">
+                    <h3>WEB desing</h3>
+                    <p>
+                        Web Design is the process of creating and
+                        designing websites by combining layouts,
+                        colors, typography, images, and user-friendly
+                        interfaces to make websites attractive,
+                        functional, and easy to navigate.
+                    </p>
+                </div>
+
+                <img src="media/web" alt="Web design">
+            </div>
+
+            <div class="subject-card reverse">
+                <img src="media/operative.system" alt="Operating system">
+
+                <div class="subject-text">
+                    <h3>Operating system</h3>
+                    <p>
+                        Operating Systems is a subject that focuses
+                        on how operating systems manage computer
+                        hardware, software, memory, files, and
+                        processes. It helps students understand how
+                        computers work.
+                    </p>
+                </div>
+            </div>
+
+            <div class="subject-card">
+                <div class="subject-text">
+                    <h3>Programming language</h3>
+                    <p>
+                        Programming Languages is a subject that
+                        teaches the fundamentals of coding,
+                        problem-solving, algorithms, and data
+                        structures. It helps students learn how to
+                        write, understand, and debug programs.
+                    </p>
+                </div>
+
+                <img src="media/programm language" alt="Programming">
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="skills" id="skills">
+
+            <h2>My skills</h2>
+            <div class="title-line"></div>
+
+            <div class="skills-grid">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">VS Code</div>
+                <div class="skill">Figma</div>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+
+            <div class="about-text">
+                <h2>About me</h2>
+
+                <p>
+                    Hi! I'm a programming student at the college
+                    of the International University of Ala-Too.
+                    I'm passionate about technology, coding,
+                    and problem-solving. Besides programming,
+                    I enjoy reading books and engaging in creative
+                    activities, which help me expand my knowledge,
+                    develop my imagination, and explore new ideas.
+                    I'm constantly learning new skills and improving
+                    my abilities, with the goal of becoming a
+                    skilled software developer and creating
+                    useful projects.
+                </p>
+
+                <a href="#skills" class="btn">Resume</a>
+            </div>
+
+            <div class="about-image">
+                <div class="yellow-circle"></div>
+                <img src="media/logo2" alt="About me">
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+
+            <h2>Contact me</h2>
+            <div class="title-line"></div>
+
+            <form action="#" method="post" id="contactForm" novalidate>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="enter your name">
+                <small id="nameError" class="error"></small>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="enter your email">
+                <small id="emailError" class="error"></small>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="enter your message" rows="4"></textarea>
+                <small id="messageError" class="error"></small>
+                <button type="submit" class="btn">Send</button>
+                <p id="successMessage"></p>
+            </form>
+            <p class="copyright">Made by Aizhana 2026</p>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <!-- <button id="scrollTopBtn" class="scroll-top"></button> -->
+    </footer>
+    <script src="qwer.js"></script>
+</body>
+</html>
